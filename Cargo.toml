@@ -1,0 +1,15 @@
+[package]
+name = "riscv-regs"
+version = "0.1.0"
+repository = "https://github.com/imsut/riscv-regs"
+authors = ["Ken Kawamoto <kentaro.kawamoto@gmail.com>"]
+edition = "2018"
+categories = ["hardware-support", "no-std"]
+description = "Low level a  ccess to RISC-V registers"
+keywords = ["riscv", "register"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+register = { version = "0.5.x", optional = true }
